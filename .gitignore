@@ -9,6 +9,7 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Mm]emoryCaptures/
+/[Pp]ackages/
 
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
@@ -42,11 +43,37 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+/Backup/
+/obj/
+/PestelLib/Server/bin
+Debug
+Release
+.idea/
+.vscode/
+.vsconfig
+Assets/Plugins/Editor/JetBrains.meta
+Assets/Plugins/Editor/JetBrains/
+*.sublime-project
+*.sublime-workspace
 
 # Unity3D generated meta files
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
+build/
+buildPC/
+/Temp/
+Obj/
+UnityGenerated/
+Library/
+Assets/Assemblies/*.dll.mdb
+Assets/Assemblies/*.dll.mdb.meta
+Logs/
+*.index
+*.index.meta
+ProjectSettings
+UserSettings
+TextMesh Pro
 
 # Unity3D generated file on crash reports
 sysinfo.txt
